@@ -6,7 +6,7 @@
 
 ## Ссылка на проект
 
-[Mesto rev.1 Rev.1](https://doralex.github.io/russian-travel/)
+[Mesto rev.1 Rev.1](https://doralex.github.io/mesto/)
 
 ![alt text](https://pictures.s3.yandex.net/resources/__2020-02-25__12.19.27_1586081326.png)
 
