@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+  <meta name="description" content="4th project YaPraktikum" />
+</head>
+
+<body class="root">
+
+  <div class="content">        
+      <header class="header">
+        <a href="#" class="header__link" target="_self">
+          <div class="header__logo"></div>
+        </a>
+        <div class="header__line"></div>
+      </header>
+
+      <main class="main">
+
+        <section class="profile">
+          <div class="profile__group">
+            <div class="profile__avatar"></div>            
+            <div class="profile__info">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <a href="#" class="profile__edit-button" target="_self"></a>
+              <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+          </div>
+          <a href="#" class="profile__add-button" target="_self"></a>
+        </section>
+
+        <section class="elements">
+          <ul class="elements__list">
+            <li class="elements__item element">
+              <img src="images/boat.jpg" alt="Карачаевск" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Лодка</h2>
+                <a href="#" class="element__like element__like_active" target="_self"></a>
+              </div>
+            </li>
+            <li class="elements__item element">
+              <img src="images/morda.jpg" alt="Эльбрус" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Тигр</h2>
+                <a href="#" class="element__like" target="_self"></a>
+              </div>
+            </li>
+            <li class="elements__item element">
+              <img src="images/bridge.jpg" alt="Домбай" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Мостик</h2>
+                <a href="#" class="element__like" target="_self"></a>
+              </div>
+            </li>
+            <li class="elements__item element">
+              <img src="images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Карачаевск</h2>
+                <a href="#" class="element__like" target="_self"></a>
+              </div>
+            </li>
+            <li class="elements__item element">
+              <img src="images/elbrus.jpg" alt="Эльбрус" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Эльбрус</h2>
+                <a href="#" class="element__like element__like_active" target="_self"></a>
+              </div>
+            </li>
+            <li class="elements__item element">
+              <img src="images/dombay.jpg" alt="Домбай" class="element__image">
+              <div class="element__info">
+                <h2 class="element__title">Домбай</h2>
+                <a href="#" class="element__like" target="_self"></a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">A. Doroshenko &copy; 2021 Mesto Russia</p>
+      </footer>      
+  </div>
+
+  <div class="edit-form">
+    <div class="edit-form__popup">
+      <form class="edit-form__form">
+        <h2 class="edit-form__title">
+          Редактировать профиль
+        </h2>      
+        <input class="edit-form__item-form" type="text" name="title" value="">
+        <input class="edit-form__item-form" type="text" name="subtitle" value="">
+        <input class="edit-form__button" type="submit" value="Сохранить">
+      </form>
+      <a href="#" class="edit-form__close" target="_self"></a>
+    </div>             
+  </div>
+
+  <script src="scripts/index.js"></script> 
+
+</body>
+</html>
