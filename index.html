@@ -26,11 +26,11 @@
             <div class="profile__avatar"></div>             
             <div class="profile__info"> 
               <h1 class="profile__title">Жак-Ив Кусто</h1> 
-              <button class="profile__edit-button"></button> 
+              <button class="profile__edit-button" type="button"></button> 
               <p class="profile__subtitle">Исследователь океана</p> 
             </div> 
           </div> 
-          <button class="profile__add-button"></button> 
+          <button class="profile__add-button" type="button"></button> 
         </section> 
  
         <section class="elements"> 
@@ -88,13 +88,13 @@
  
   <div class="edit-form"> 
     <div class="edit-form__popup"> 
-      <form class="edit-form__form" name="editProfileForm" method="GET"> 
+      <form class="edit-form__form" name="editProfileForm" method="POST"> 
         <h3 class="edit-form__title">Редактировать профиль </h3>       
-        <input class="edit-form__item-form edit-form__item-form_title" type="text" name="title" placeholder="Имя" value=""> 
-        <input class="edit-form__item-form edit-form__item-form_subtitle" type="text" name="subtitle" placeholder="О себе" value=""> 
+        <input class="edit-form__item-form edit-form__item-form_title-input" type="text" name="title" placeholder="Имя" value=""> 
+        <input class="edit-form__item-form edit-form__item-form_subtitle-input" type="text" name="subtitle" placeholder="О себе" value=""> 
         <button class="edit-form__button" type="submit">Сохранить</button>
       </form> 
-      <button class="edit-form__close" type="submit"></button> 
+      <button class="edit-form__close" type="button"></button> 
     </div>              
   </div> 
  
